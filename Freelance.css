@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .project-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .project-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  a {
+    color: #e30613; /* Red Bull red color */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
